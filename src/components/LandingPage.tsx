@@ -5,6 +5,7 @@ import Features from "./Features";
 import HowItWorks from "./HowItWorks";
 import FinalCTA from "./FinalCTA";
 import Footer from "./Footer";
+import Mockup from "../assets/images/Mockup.png";
 
 // A component to add the blue glow effect inspired by modern websites
 const Glow = () => (
@@ -22,7 +23,7 @@ const LandingPage = () => {
       <div className="w-full my-24 flex justify-center">
         {/* You can place a high-quality image or a video component here */}
         <img
-          src="https://placehold.co/1200x800/f5f5f5/e67e22?text=EasyThrift+App+Mockup"
+          src={Mockup}
           alt="EasyThrift App Mockup"
           className="rounded-2xl shadow-2xl"
         />

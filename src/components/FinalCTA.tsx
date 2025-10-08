@@ -13,7 +13,7 @@ const FinalCTA = () => {
           <Input 
             type="email" 
             placeholder="Enter your email address" 
-            className="h-14 text-lg text-black rounded-full flex-grow" 
+            className="h-14 text-lg text-white plsceholder-gray-200 rounded-full flex-grow" 
           />
           <Button 
             type="submit"
