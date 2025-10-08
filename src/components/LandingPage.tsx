@@ -25,7 +25,7 @@ const LandingPage = () => {
         <img
           src={Mockup}
           alt="EasyThrift App Mockup"
-          className="rounded-2xl shadow-2xl"
+          className="rounded-2xl shadow-2xl object-cover w-full h-full hover:scale-150 focus:scale-150 transition-transform duration-500 max-w-4xl"
         />
       </div>
       <Features />
